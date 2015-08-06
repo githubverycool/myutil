@@ -1,4 +1,4 @@
-package converMybatis;
+package CreateSql;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -7,7 +7,12 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class ConverMybatisSql {
+/**
+ * 播控平台 同步影片基本信息 脚本生成工具类
+ * @author Administrator
+ *
+ */
+public class CreateSqlBySyncPlatform {
 	public static void main(String[] args) throws IOException {
 		createInsert();
 		createUpdate();

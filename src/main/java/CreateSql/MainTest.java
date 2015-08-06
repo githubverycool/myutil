@@ -1,4 +1,4 @@
-package converMybatis;
+package CreateSql;
 
 import org.apache.commons.lang.StringUtils;
 
